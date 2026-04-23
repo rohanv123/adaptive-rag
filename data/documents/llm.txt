@@ -1,0 +1,5 @@
+Large Language Models (LLMs) are artificial intelligence systems trained on vast amounts of text data. They can generate human-like responses, answer questions, summarize content, and perform various language tasks.
+
+LLMs use deep learning techniques, especially transformer architectures, to understand and generate text. However, they have limitations such as hallucination, where they may produce incorrect or misleading information.
+
+To improve reliability, LLMs are often combined with retrieval systems like RAG. This allows them to access external knowledge sources and provide more accurate and up-to-date answers.

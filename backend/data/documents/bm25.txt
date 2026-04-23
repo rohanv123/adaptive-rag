@@ -1,0 +1,7 @@
+BM25 is a ranking algorithm used in information retrieval.
+
+It scores documents based on term frequency and inverse document frequency.
+
+BM25 works well for exact keyword matching and is commonly used in search engines.
+
+However, it cannot understand semantic meaning, so it may fail when synonyms are used.

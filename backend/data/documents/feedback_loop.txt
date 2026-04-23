@@ -1,0 +1,11 @@
+A feedback loop allows the system to improve over time.
+
+The system tracks:
+- Latency
+- Answer quality (proxy metrics like length or confidence)
+
+Based on this:
+- If latency is high, reduce top-K
+- If quality is low, increase top-K or change strategy
+
+This creates a self-optimizing system without retraining.

@@ -1,0 +1,9 @@
+Performance of a RAG system is measured using:
+
+- P50 latency: median response time
+- P95 latency: worst-case latency for most queries
+- Retrieval time vs generation time
+- Cache hit rate
+- Answer quality
+
+Adaptive systems aim to balance latency and accuracy.

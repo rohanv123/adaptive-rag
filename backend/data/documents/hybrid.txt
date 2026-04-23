@@ -1,0 +1,10 @@
+Hybrid retrieval combines vector search and keyword-based search.
+
+Vector search uses embeddings to find semantically similar documents.
+BM25 keyword search retrieves documents based on exact keyword matches.
+
+Hybrid retrieval merges both methods to improve recall and precision.
+
+A common method to combine results is Reciprocal Rank Fusion (RRF), where documents ranked highly in both methods receive higher scores.
+
+Hybrid retrieval is especially useful for short queries where keyword matching is important.

@@ -1,0 +1,10 @@
+Reranking improves retrieval quality by reordering candidate documents.
+
+A cross-encoder model evaluates both the query and document together, producing more accurate relevance scores.
+
+The typical pipeline is:
+1. Retrieve top-N documents using a fast method
+2. Rerank them using a slower but more accurate model
+3. Select top-K for generation
+
+Reranking improves answer quality but adds latency.

@@ -1,0 +1,7 @@
+Vector search uses embeddings to represent text as numerical vectors.
+
+These embeddings capture semantic meaning, allowing the system to find similar content even if exact words do not match.
+
+FAISS is a library used for efficient similarity search over large vector datasets.
+
+Vector search is powerful for understanding context but may miss exact keyword matches.

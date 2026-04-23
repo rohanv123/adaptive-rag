@@ -1,0 +1,11 @@
+Query decomposition breaks a complex query into smaller sub-queries.
+
+Example:
+"Compare BM25 and vector search"
+→ "What is BM25?"
+→ "What is vector search?"
+→ "How do they differ?"
+
+Each sub-query is retrieved separately, and results are merged.
+
+This improves performance on multi-part questions.

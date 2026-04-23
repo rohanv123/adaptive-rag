@@ -1,0 +1,12 @@
+An adaptive RAG system dynamically adjusts its behavior based on the query.
+
+For example:
+- Short queries use smaller top-K values
+- Complex queries use larger top-K values
+- High latency reduces retrieval depth
+
+The system may also adjust strategy:
+- Keyword search for simple queries
+- Vector or hybrid search for complex queries
+
+This improves both performance and efficiency.

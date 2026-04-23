@@ -1,0 +1,5 @@
+Vector search is a technique used to find similar items based on meaning rather than exact keyword matching. Text is converted into numerical vectors using embedding models, which capture semantic meaning.
+
+When a user submits a query, it is also converted into a vector. The system then compares this vector with stored vectors using similarity metrics such as cosine similarity or Euclidean distance.
+
+Vector search is widely used in recommendation systems, semantic search engines, and AI applications like RAG. It allows systems to understand context and retrieve more relevant results compared to traditional keyword-based search.
